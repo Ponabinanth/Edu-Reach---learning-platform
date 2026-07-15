@@ -1,0 +1,6 @@
+{
+  "name": "EduReach AI",
+  "description": "Personalized Learning, Assessment & Career Development Platform Powered by Generative AI",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
