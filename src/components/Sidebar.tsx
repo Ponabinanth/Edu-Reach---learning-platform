@@ -14,7 +14,8 @@ import {
   User,
   TrendingUp,
   Briefcase,
-  MessageSquare
+  MessageSquare,
+  Database
 } from "lucide-react";
 import { UserProfile, UserRole } from "../types";
 
@@ -43,6 +44,7 @@ export default function Sidebar({ currentView, onViewChange, user, onLogout }: S
     { id: "support_chat", label: "Support Chatbot", icon: MessageSquare, roles: [UserRole.STUDENT, UserRole.FACULTY, UserRole.ADMIN, UserRole.PARENT] },
     { id: "study_rooms", label: "Study Rooms", icon: Users, roles: [UserRole.STUDENT] },
     { id: "leaderboard", label: "Progress", icon: TrendingUp, roles: [UserRole.STUDENT, UserRole.FACULTY, UserRole.ADMIN, UserRole.PARENT] },
+    { id: "digital_twin", label: "Industrial Twin", icon: Database, roles: [UserRole.STUDENT, UserRole.FACULTY, UserRole.ADMIN] },
     { id: "profile", label: "Profile", icon: User, roles: [UserRole.STUDENT, UserRole.FACULTY, UserRole.ADMIN, UserRole.PARENT] },
   ];
 

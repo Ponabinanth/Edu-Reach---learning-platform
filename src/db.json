@@ -145,6 +145,22 @@
         "Database": 45
       },
       "createdAt": "2026-07-15T07:04:25.118Z"
+    },
+    {
+      "id": "usr_2olanvw",
+      "email": "karthi@gmail.com",
+      "name": "Karthick",
+      "role": "parent",
+      "xp": 100,
+      "level": 1,
+      "streak": 1,
+      "badges": [
+        "Starter"
+      ],
+      "skills": {
+        "General": 50
+      },
+      "createdAt": "2026-07-20T05:34:39.132Z"
     }
   ],
   "courses": [
@@ -4159,6 +4175,77 @@
           "explanation": "HTTPS defaults to port 443, while standard HTTP defaults to port 80."
         }
       ]
+    },
+    {
+      "id": "dq_msq2mxz",
+      "courseId": "dynamic",
+      "courseTitle": "Dynamic Quiz",
+      "title": "Dynamic Programming & Optimization Concepts",
+      "description": "A customized assessment on Dynamic Programming (Difficulty: Medium)",
+      "durationMinutes": 10,
+      "facultyId": "ai_tutor",
+      "questions": [
+        {
+          "id": "dq_q_1_wd1",
+          "question": "What are the two key attributes that a problem must exhibit to be solved using Dynamic Programming?",
+          "options": [
+            "Greedy choice property & optimal substructure",
+            "Overlapping subproblems & optimal substructure",
+            "Divide and conquer structure & recursive definition",
+            "Linear scalability & subproblem dependencies"
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "Dynamic programming requires overlapping subproblems (recomputing the same sub-problems repeatedly) and optimal substructure (optimal solution to the global problem can be constructed from optimal solutions to subproblems)."
+        },
+        {
+          "id": "dq_q_2_s35",
+          "question": "What is the difference between Memoization and Tabulation?",
+          "options": [
+            "Memoization is top-down (recursive); Tabulation is bottom-up (iterative)",
+            "Memoization is bottom-up (iterative); Tabulation is top-down (recursive)",
+            "Memoization is O(N^2); Tabulation is O(N)",
+            "Memoization uses no additional space; Tabulation uses an auxiliary array"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Memoization caches recursive results (top-down), while Tabulation fills a table/array sequentially from base cases upwards (bottom-up)."
+        },
+        {
+          "id": "dq_q_3_2dx",
+          "question": "In the 0/1 Knapsack problem, why does the greedy approach fail?",
+          "options": [
+            "Items cannot be divided; we must take a full item or leave it",
+            "The sorting of weight ratio takes O(N^2) complexity",
+            "The knapsack capacity is constant",
+            "The item values must be sorted descending"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Since items cannot be split, a greedy choice based on value-to-weight ratio may result in suboptimal space usage. DP searches the full combination space to find the absolute optimum."
+        },
+        {
+          "id": "dq_q_4_vok",
+          "question": "What are the two key attributes that a problem must exhibit to be solved using Dynamic Programming?",
+          "options": [
+            "Greedy choice property & optimal substructure",
+            "Overlapping subproblems & optimal substructure",
+            "Divide and conquer structure & recursive definition",
+            "Linear scalability & subproblem dependencies"
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "Dynamic programming requires overlapping subproblems (recomputing the same sub-problems repeatedly) and optimal substructure (optimal solution to the global problem can be constructed from optimal solutions to subproblems)."
+        },
+        {
+          "id": "dq_q_5_l59",
+          "question": "What is the difference between Memoization and Tabulation?",
+          "options": [
+            "Memoization is top-down (recursive); Tabulation is bottom-up (iterative)",
+            "Memoization is bottom-up (iterative); Tabulation is top-down (recursive)",
+            "Memoization is O(N^2); Tabulation is O(N)",
+            "Memoization uses no additional space; Tabulation uses an auxiliary array"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Memoization caches recursive results (top-down), while Tabulation fills a table/array sequentially from base cases upwards (bottom-up)."
+        }
+      ]
     }
   ],
   "quizSubmissions": [
@@ -5018,6 +5105,51 @@
       ],
       "status": "active",
       "createdAt": "2026-07-15T04:50:08.756Z"
+    },
+    {
+      "id": "int_tw7lqt6",
+      "studentId": "std_1",
+      "type": "Technical",
+      "companyName": "TCS",
+      "messages": [
+        {
+          "role": "interviewer",
+          "text": "Hello! I'm your technical interviewer. Let's dive into TCS development. To start, explain the fundamental differences between interface and abstract class structures, and when you would prefer one over another.",
+          "timestamp": "2026-07-20T05:22:02.059Z"
+        }
+      ],
+      "status": "active",
+      "createdAt": "2026-07-20T05:22:02.059Z"
+    },
+    {
+      "id": "int_lrikeqr",
+      "studentId": "std_1",
+      "type": "HR",
+      "companyName": "TCS",
+      "messages": [
+        {
+          "role": "interviewer",
+          "text": "Welcome! Let's begin our HR round. To start, please tell me a bit about yourself, your background, and why you are interested in this platform.",
+          "timestamp": "2026-07-20T05:33:05.598Z"
+        }
+      ],
+      "status": "active",
+      "createdAt": "2026-07-20T05:33:05.598Z"
+    },
+    {
+      "id": "int_faol5f7",
+      "studentId": "std_1",
+      "type": "Company Specific",
+      "companyName": "Wipro",
+      "messages": [
+        {
+          "role": "interviewer",
+          "text": "Hello! I'm your technical interviewer. Let's dive into Wipro development. To start, explain the fundamental differences between interface and abstract class structures, and when you would prefer one over another.",
+          "timestamp": "2026-07-20T15:17:00.553Z"
+        }
+      ],
+      "status": "active",
+      "createdAt": "2026-07-20T15:17:00.553Z"
     }
   ],
   "careerPlans": [],

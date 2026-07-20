@@ -52,6 +52,7 @@ import SupportChatbot from "./components/SupportChatbot";
 import CodingMentor from "./components/CodingMentor";
 import StudyRooms from "./components/StudyRooms";
 import AIBuddy from "./components/AIBuddy";
+import DigitalTwin from "./components/DigitalTwin";
 
 import { UserProfile, UserRole, Course, Quiz, CodingProblem } from "./types";
 import { api } from "./api";
@@ -383,6 +384,8 @@ export default function App() {
         return <div className="ai-font-times"><CodingMentor user={user} /></div>;
       case "study_rooms":
         return <StudyRooms />;
+      case "digital_twin":
+        return <DigitalTwin user={user} />;
       case "admin":
         return <AdminPanel />;
       default:
